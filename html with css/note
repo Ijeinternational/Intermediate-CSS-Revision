@@ -1,0 +1,35 @@
+to change background color using inline css; it should be done inside the body tag of the website 
+<body style="background-color: aquamarine;" after colon, make your choice of color
+to get color options, use google, check css colors on mdn docs web
+to style your code using internal css, it should be done in the head tag. 
+see example below
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First website</title>
+    <style>
+        body{
+            background-color: powderblue;
+        }
+        hr{
+           
+           border-style: none;
+           border-top-style: dotted;
+           border-width: 5px;
+           border-color: grey;
+           width: 5%;
+
+        }
+    </style>
+</head>
+to style your code using external css, create a new file, name it in relation to css, input your style 
+or changes you want to effect. on the main coding page, use the tag <link rel="stylesheet" href="put in the name
+of the external css file here"> and save
+of the three types of css, the most efective is the inline css, followed by the internal before the external.
+the external css is the best to use to effect change on several pages of code. while the inline or internal
+is good effecting singular changes or commands
+selectors in coding include tags e.g img{}, class, e.g .baton, and ids e.g #brocolli. the major difference
+class selectors and id selectors is in that, in class selector, you can use more than one class in an inline css
+but for ids, you can't use more than one on an inline css
+e.g of two class in an inline class
+<img class="brocolli" src="" alt="">
